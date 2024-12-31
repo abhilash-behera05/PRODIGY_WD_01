@@ -1,0 +1,96 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: linear-gradient(90deg, #4a90e2, #c34088);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+  color: #f7cb92;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+nav p{
+  font-size: 23px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: rgba(93, 23, 23, 0.2);
+  color: #00000046;
+  border-radius: 15px;
+}
+
+main {
+  padding-top: 70px; /* To prevent content being hidden under fixed header */
+}
+
+section {
+  padding: 60px 20px;
+  margin: 40px 0;
+  border: 1px solid #ddd;
+  background-color: #944177;
+}
+
+section h1 {
+  margin: 0 0 20px;
+}
+
+/* Circle with gradient */
+.circle {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle, #4a90e2, #6b8ee3);
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+/* Blue Gradient Square */
+.square {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(45deg, #021832, #6b8ee3);
+  margin: 20px auto;
+}
+
+/* Scroll-based background color change */
+.scrolled {
+  background: linear-gradient(90deg, #4c9621, #4a90e2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+  
